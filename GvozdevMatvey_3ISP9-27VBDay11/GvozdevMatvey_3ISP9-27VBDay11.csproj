@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E702CA67-0023-42E2-8121-0FEC967F9E41}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>GvozdevMatvey_3ISP9_27VBDay11</RootNamespace>
+    <AssemblyName>GvozdevMatvey_3ISP9-27VBDay11</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="WIndows\Ending.xaml.cs">
+      <DependentUpon>Ending.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WIndows\ForestWindow.xaml.cs">
+      <DependentUpon>ForestWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WIndows\ForestWindow1.xaml.cs">
+      <DependentUpon>ForestWindow1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WIndows\InfoWindow.xaml.cs">
+      <DependentUpon>InfoWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WIndows\LeftWindow.xaml.cs">
+      <DependentUpon>LeftWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WIndows\NoWindows.xaml.cs">
+      <DependentUpon>NoWindows.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WIndows\River.xaml.cs">
+      <DependentUpon>River.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WIndows\RiverEnd1.xaml.cs">
+      <DependentUpon>RiverEnd1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WIndows\SkipWindow.xaml.cs">
+      <DependentUpon>SkipWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WIndows\StartStoryWindow.xaml.cs">
+      <DependentUpon>StartStoryWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WIndows\StartStoryWindow1.xaml.cs">
+      <DependentUpon>StartStoryWindow1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WIndows\StartStoryWindow2.xaml.cs">
+      <DependentUpon>StartStoryWindow2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WIndows\StuckSunWindow.xaml.cs">
+      <DependentUpon>StuckSunWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WIndows\StuckSunWindow2.xaml.cs">
+      <DependentUpon>StuckSunWindow2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WIndows\StuckSunWindow4.xaml.cs">
+      <DependentUpon>StuckSunWindow4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WIndows\StuckSunWindow5.xaml.cs">
+      <DependentUpon>StuckSunWindow5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WIndows\StuckSunWindow6.xaml.cs">
+      <DependentUpon>StuckSunWindow6.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WIndows\StuckWindow.xaml.cs">
+      <DependentUpon>StuckWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WIndows\StuckWindow1.xaml.cs">
+      <DependentUpon>StuckWindow1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WIndows\StuckWindow2.xaml.cs">
+      <DependentUpon>StuckWindow2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WIndows\StuckWindow3.xaml.cs">
+      <DependentUpon>StuckWindow3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WIndows\SunWindow.xaml.cs">
+      <DependentUpon>SunWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WIndows\WorldChoiceWindow.xaml.cs">
+      <DependentUpon>WorldChoiceWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WIndows\WorldWindow.xaml.cs">
+      <DependentUpon>WorldWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WIndows\WorldWindow1.xaml.cs">
+      <DependentUpon>WorldWindow1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WIndows\YesWindow.xaml.cs">
+      <DependentUpon>YesWindow.xaml</DependentUpon>
+    </Compile>
+    <Page Include="WIndows\Ending.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WIndows\ForestWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WIndows\ForestWindow1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WIndows\InfoWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WIndows\LeftWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WIndows\MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WIndows\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="WIndows\NoWindows.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WIndows\River.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WIndows\RiverEnd1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WIndows\SkipWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WIndows\StartStoryWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WIndows\StartStoryWindow1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WIndows\StartStoryWindow2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WIndows\StuckSunWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WIndows\StuckSunWindow2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WIndows\StuckSunWindow4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WIndows\StuckSunWindow5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WIndows\StuckSunWindow6.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WIndows\StuckWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WIndows\StuckWindow1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WIndows\StuckWindow2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WIndows\StuckWindow3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WIndows\SunWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WIndows\WorldChoiceWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WIndows\WorldWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WIndows\WorldWindow1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WIndows\YesWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Sprites\png-clipart-graphy-man-looking-up-others-miscellaneous-tshirt-transformed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="BackGrounds\Image1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Sprites\hobo-benchglare%28a%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="BackGrounds\56.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Sprites\hobo-normal%28a%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="BackGrounds\65464564.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Sprites\hobo-bigeyed%28a%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="BackGrounds\Screenshot_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Sprites\Animation_000.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="BackGrounds\5345345.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Sprites\Frame_0000.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Sprites\hobo-laughs.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="BackGrounds\564.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Sprites\Frame_0066.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
